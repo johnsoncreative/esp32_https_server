@@ -6,7 +6,8 @@
 #include <string>
 
 // Required for SSL
-#include "openssl/ssl.h"
+//#include "openssl/ssl.h" BWJ Keep Connectx
+#include <sha/sha_parallel_engine.h>
 #undef read
 
 // Required for sockets
